@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CyberGuard.Api/CyberGuard.Api.csproj" />
+    <Project Path="src/CyberGuard.Application/CyberGuard.Application.csproj" />
+    <Project Path="src/CyberGuard.Domain/CyberGuard.Domain.csproj" />
+    <Project Path="src/CyberGuard.Infrastructure/CyberGuard.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CyberGuard.Api.Tests/CyberGuard.Api.Tests.csproj" />
+    <Project Path="tests/CyberGuard.Application.Tests/CyberGuard.Application.Tests.csproj" />
+    <Project Path="tests/CyberGuard.Domain.Tests/CyberGuard.Domain.Tests.csproj" />
+    <Project Path="tests/CyberGuard.Infrastructure.Tests/CyberGuard.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
