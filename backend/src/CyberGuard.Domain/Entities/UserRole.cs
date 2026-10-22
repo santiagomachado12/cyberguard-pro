@@ -1,0 +1,18 @@
+namespace CyberGuard.Domain.Entities;
+
+using CyberGuard.Domain.Common;
+
+public class UserRole : Entity<Guid>
+{
+    public Guid UserId { get; private set; }
+    public Guid RoleId { get; private set; }
+    public User User { get; private set; } = default!;
+    public Role Role { get; private set; } = default!;
+
+    private UserRole() { }
+
+    public static UserRole Create(Guid userId, Guid roleId)
+    {
+        return new UserRole { Id = Guid.NewGuid(), UserId = userId, RoleId = roleId };
+    }
+}
